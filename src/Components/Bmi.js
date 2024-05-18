@@ -36,7 +36,7 @@ function Bmi() {
       <h3>Calculate your bmi💪</h3>
       <h4 className={bminumber == ''?'d-none' :""}>bmi={bminumber}</h4>
       <div className='flex'>
-     <input ref={heightinput} placeholder='enter your height' type='text'/>
+     <input ref={heightinput} placeholder='enter your height in cm' type='text'/>
      <input ref={weighttinput} placeholder='enter your weight' type='text'/>
      </div>
      <button onClick={calculateBmiHendler} className='btn1'>submit</button>

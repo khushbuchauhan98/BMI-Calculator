@@ -21,7 +21,7 @@ function App() {
      <Bmi/>
      
     </div>
-  );4
+  );
 }
 
 export default App;
